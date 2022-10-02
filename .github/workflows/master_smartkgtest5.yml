@@ -48,4 +48,4 @@ jobs:
         app-name: 'smartkgtest5'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_a5e9f8585bcc433781c69bcad896c026 }}
-        images: 'mcr.microsoft.com/${{ secrets.AzureAppService_ContainerUsername_1f8db770edca4a96a0ee7d7ad16788ea }}/appsvc/staticsite:${{ github.sha }}'
+        
